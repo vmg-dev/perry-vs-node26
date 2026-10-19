@@ -1,0 +1,13 @@
+{
+  "node": {
+    "bytes": 2129424,
+    "sha256": "ac9d68926c73b86e62dc113cfa9878f08b9c1af7434b7af88189e8beacadd541",
+    "line_count": 2
+  },
+  "perry": {
+    "bytes": 2129424,
+    "sha256": "ac9d68926c73b86e62dc113cfa9878f08b9c1af7434b7af88189e8beacadd541",
+    "line_count": 2
+  },
+  "exact_match": true
+}

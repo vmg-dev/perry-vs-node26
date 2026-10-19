@@ -1,0 +1,32 @@
+[
+  {
+    "name": "13_factorial",
+    "exit_code": 0,
+    "turbofan_before_round_5": true,
+    "deoptimization_events": 15
+  },
+  {
+    "name": "14_closure",
+    "exit_code": 0,
+    "turbofan_before_round_5": true,
+    "deoptimization_events": 15
+  },
+  {
+    "name": "09_method_calls",
+    "exit_code": 0,
+    "turbofan_before_round_5": true,
+    "deoptimization_events": 13
+  },
+  {
+    "name": "16_matrix_multiply",
+    "exit_code": 0,
+    "turbofan_before_round_5": true,
+    "deoptimization_events": 54
+  },
+  {
+    "name": "polymorphic_shapes",
+    "exit_code": 0,
+    "turbofan_before_round_5": true,
+    "deoptimization_events": 32
+  }
+]

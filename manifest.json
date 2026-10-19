@@ -1,0 +1,630 @@
+[
+  {
+    "group": "custom",
+    "name": "escaping_closures",
+    "source": "benchmarks/custom/escaping_closures.js",
+    "category": "S",
+    "time_label": "elapsed",
+    "measurement_labels": [
+      "elapsed"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "75d33fb6950acc356c82f4b1b54d84154a54486532315268f876d6813e22e1b9"
+  },
+  {
+    "group": "custom",
+    "name": "mixed_number_string",
+    "source": "benchmarks/custom/mixed_number_string.js",
+    "category": "D",
+    "time_label": "elapsed",
+    "measurement_labels": [
+      "elapsed"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "bc72e4ce8ff06b731e2b242bb5f31a3d9d7349cdb03fb3bcbf962392bc54cbec"
+  },
+  {
+    "group": "custom",
+    "name": "polymorphic_shapes",
+    "source": "benchmarks/custom/polymorphic_shapes.js",
+    "category": "P",
+    "time_label": "elapsed",
+    "measurement_labels": [
+      "elapsed"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "e12e907622356d046518360c9e1fc1a8673fd4dbc560d748ebf5e12858677af8"
+  },
+  {
+    "group": "custom",
+    "name": "retained_objects",
+    "source": "benchmarks/custom/retained_objects.js",
+    "category": "S",
+    "time_label": "elapsed",
+    "measurement_labels": [
+      "elapsed"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "252d3e3325e4c657f5323b7cef78f5b28ba291ec81e6a6d8a33a0ba4386c3d56"
+  },
+  {
+    "group": "apps",
+    "name": "batch",
+    "source": "benchmarks/apps/batch.js",
+    "category": "S",
+    "time_label": "elapsed",
+    "measurement_labels": [
+      "elapsed"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "6079b9e6d34c00eb212ccdd080bad47209f85c934c224c5ced539706c33428d8",
+    "upstream": "benchmarks/app-patterns/kernels/batch.ts"
+  },
+  {
+    "group": "apps",
+    "name": "buffer_transcode",
+    "source": "benchmarks/apps/buffer_transcode.js",
+    "category": "S",
+    "time_label": "elapsed",
+    "measurement_labels": [
+      "elapsed"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "e5630e8dec8658f60cac8b1e9e568092e6bc8fd0170070cb99e4ed87112bc167",
+    "upstream": "benchmarks/app-patterns/kernels/buffer_transcode.ts"
+  },
+  {
+    "group": "apps",
+    "name": "date_format_parse",
+    "source": "benchmarks/apps/date_format_parse.js",
+    "category": "S",
+    "time_label": "elapsed",
+    "measurement_labels": [
+      "elapsed"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "ecafdb622ca39dbc5b712a06c050908b96b942c8a39c9d2e348160f5eddc4968",
+    "upstream": "benchmarks/app-patterns/kernels/date_format_parse.ts"
+  },
+  {
+    "group": "apps",
+    "name": "json_parse_1mb",
+    "source": "benchmarks/apps/json_parse_1mb.js",
+    "category": "B",
+    "time_label": "elapsed",
+    "measurement_labels": [
+      "elapsed"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "a3ecf118d50dc0bf52f18ad835fd6e05f6e89d3abf822f15369d7752cfb06991",
+    "upstream": "benchmarks/app-patterns/kernels/json_parse_1mb.ts"
+  },
+  {
+    "group": "apps",
+    "name": "json_stringify_1mb",
+    "source": "benchmarks/apps/json_stringify_1mb.js",
+    "category": "S",
+    "time_label": "elapsed",
+    "measurement_labels": [
+      "elapsed"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "910966b5c92a67be1639313851988e3580b82b58a527bfc2ef58ef2c6463b33b",
+    "upstream": "benchmarks/app-patterns/kernels/json_stringify_1mb.ts"
+  },
+  {
+    "group": "apps",
+    "name": "map_1m",
+    "source": "benchmarks/apps/map_1m.js",
+    "category": "S",
+    "time_label": "elapsed",
+    "measurement_labels": [
+      "elapsed"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "ddb223f13c5b1d38a54a15f3ca456af04eac997fa989f5b3d918c1c8a757b3f0",
+    "upstream": "benchmarks/app-patterns/kernels/map_1m.ts"
+  },
+  {
+    "group": "apps",
+    "name": "object_deep_clone",
+    "source": "benchmarks/apps/object_deep_clone.js",
+    "category": "S",
+    "time_label": "elapsed",
+    "measurement_labels": [
+      "elapsed"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "643185d7dcd53cfbf68ec7075c8f770689a49bfdbf62727db68acd2743257a6f",
+    "upstream": "benchmarks/app-patterns/kernels/object_deep_clone.ts"
+  },
+  {
+    "group": "apps",
+    "name": "promise_all_chains",
+    "source": "benchmarks/apps/promise_all_chains.js",
+    "category": "S",
+    "time_label": "elapsed",
+    "measurement_labels": [
+      "elapsed"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "c2277289f6c12348eb981ab9edaaf81e2f20a2a36e86aeb1a392364d6236f662",
+    "upstream": "benchmarks/app-patterns/kernels/promise_all_chains.ts"
+  },
+  {
+    "group": "apps",
+    "name": "regex_replace",
+    "source": "benchmarks/apps/regex_replace.js",
+    "category": "S",
+    "time_label": "elapsed",
+    "measurement_labels": [
+      "elapsed"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "c211dcccf429053837734eb542eef886d55d62f02c08a56f2b75ff6e92025b5a",
+    "upstream": "benchmarks/app-patterns/kernels/regex_replace.ts"
+  },
+  {
+    "group": "apps",
+    "name": "string_concat_csv",
+    "source": "benchmarks/apps/string_concat_csv.js",
+    "category": "S",
+    "time_label": "elapsed",
+    "measurement_labels": [
+      "elapsed"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "9dc4d6f35d386b2f140904216136cc78c4695d683c54583360a1c08fdcb9678f",
+    "upstream": "benchmarks/app-patterns/kernels/string_concat_csv.ts"
+  },
+  {
+    "group": "apps",
+    "name": "string_split_map_join",
+    "source": "benchmarks/apps/string_split_map_join.js",
+    "category": "S",
+    "time_label": "elapsed",
+    "measurement_labels": [
+      "elapsed"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "52e2070d5beb91928ec7312ba7b26c98fed2f10b742c63cce735b099fec03723",
+    "upstream": "benchmarks/app-patterns/kernels/string_split_map_join.ts"
+  },
+  {
+    "group": "apps",
+    "name": "string_template_interp",
+    "source": "benchmarks/apps/string_template_interp.js",
+    "category": "S",
+    "time_label": "elapsed",
+    "measurement_labels": [
+      "elapsed"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "43b65d61a186a956045e80c3010e2f67d6adcf692a900b668e5b98148f82664d",
+    "upstream": "benchmarks/app-patterns/kernels/string_template_interp.ts"
+  },
+  {
+    "group": "suite",
+    "name": "02_loop_overhead",
+    "source": "benchmarks/suite/02_loop_overhead.js",
+    "category": "S",
+    "time_label": "loop_overhead",
+    "measurement_labels": [
+      "loop_overhead"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "bfcf5d1e7ce531d07dedcac1cc93528a2f54a26f9ff0de804e0099ffb5d7d279",
+    "upstream": "benchmarks/suite/02_loop_overhead.ts"
+  },
+  {
+    "group": "suite",
+    "name": "03_array_write",
+    "source": "benchmarks/suite/03_array_write.js",
+    "category": "S",
+    "time_label": "array_write",
+    "measurement_labels": [
+      "array_write"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "d74f6737b3406ea9d29bd9c2ff9b3d347e50c924aba7ae19c8e649454487c257",
+    "upstream": "benchmarks/suite/03_array_write.ts"
+  },
+  {
+    "group": "suite",
+    "name": "04_array_read",
+    "source": "benchmarks/suite/04_array_read.js",
+    "category": "S",
+    "time_label": "array_read",
+    "measurement_labels": [
+      "array_read"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "daff6a2d111c0f932fd6583398b7fbb52e10ff5cc3be59d0115128034a98c641",
+    "upstream": "benchmarks/suite/04_array_read.ts"
+  },
+  {
+    "group": "suite",
+    "name": "05_fibonacci",
+    "source": "benchmarks/suite/05_fibonacci.js",
+    "category": "S",
+    "time_label": "fibonacci",
+    "measurement_labels": [
+      "fibonacci"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "b5c4c11ea73b49f085734eef1b7bd0bfc20613a2249246b6aa0a56c71e229292",
+    "upstream": "benchmarks/suite/05_fibonacci.ts"
+  },
+  {
+    "group": "suite",
+    "name": "06_math_intensive",
+    "source": "benchmarks/suite/06_math_intensive.js",
+    "category": "S",
+    "time_label": "math_intensive",
+    "measurement_labels": [
+      "math_intensive"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "687b7cf910cac92485f19a16a3d3a03c3008b220b7e04ff73d8c357bf5a02d83",
+    "upstream": "benchmarks/suite/06_math_intensive.ts"
+  },
+  {
+    "group": "suite",
+    "name": "07_object_create",
+    "source": "benchmarks/suite/07_object_create.js",
+    "category": "S",
+    "time_label": "object_create",
+    "measurement_labels": [
+      "object_create"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "6442fca3f724cfa97e7277003b85736880c3ca9897d9de129640c4c26088aaa5",
+    "upstream": "benchmarks/suite/07_object_create.ts"
+  },
+  {
+    "group": "suite",
+    "name": "08_string_concat",
+    "source": "benchmarks/suite/08_string_concat.js",
+    "category": "S",
+    "time_label": "string_concat",
+    "measurement_labels": [
+      "string_concat"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "17c54fc557fd819ff8f3db1fd950c0fa3975b71728320f612ad601bc5f4c172b",
+    "upstream": "benchmarks/suite/08_string_concat.ts"
+  },
+  {
+    "group": "suite",
+    "name": "09_method_calls",
+    "source": "benchmarks/suite/09_method_calls.js",
+    "category": "S",
+    "time_label": "method_calls",
+    "measurement_labels": [
+      "method_calls"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "7255ce96fa8d3974c0697113635216bfcfc18be9872330c993c3c3715b15ca01",
+    "upstream": "benchmarks/suite/09_method_calls.ts"
+  },
+  {
+    "group": "suite",
+    "name": "10_nested_loops",
+    "source": "benchmarks/suite/10_nested_loops.js",
+    "category": "S",
+    "time_label": "nested_loops",
+    "measurement_labels": [
+      "nested_loops"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "6ee169538de31f84ae69f44375c79b728770aa78e988fc43d777db72ba629911",
+    "upstream": "benchmarks/suite/10_nested_loops.ts"
+  },
+  {
+    "group": "suite",
+    "name": "11_prime_sieve",
+    "source": "benchmarks/suite/11_prime_sieve.js",
+    "category": "S",
+    "time_label": "prime_sieve",
+    "measurement_labels": [
+      "prime_sieve"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "a9f12c05eba16691fa1191c7ce014484ac02e501006b0f646d0cc04827a7aca8",
+    "upstream": "benchmarks/suite/11_prime_sieve.ts"
+  },
+  {
+    "group": "suite",
+    "name": "12_binary_trees",
+    "source": "benchmarks/suite/12_binary_trees.js",
+    "category": "S",
+    "time_label": "object_alloc",
+    "measurement_labels": [
+      "object_alloc"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "b035a6e4e8a8f996f6ce64ccae4bbc49ae72e2f587444da72180d45f2aa67094",
+    "upstream": "benchmarks/suite/12_binary_trees.ts"
+  },
+  {
+    "group": "suite",
+    "name": "13_factorial",
+    "source": "benchmarks/suite/13_factorial.js",
+    "category": "S",
+    "time_label": "accumulate",
+    "measurement_labels": [
+      "accumulate"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "9ca07524bb92986675c1d4fa6186b0accd567462c6356af2f4cf129294148f5f",
+    "upstream": "benchmarks/suite/13_factorial.ts"
+  },
+  {
+    "group": "suite",
+    "name": "14_closure",
+    "source": "benchmarks/suite/14_closure.js",
+    "category": "S",
+    "time_label": "function_calls",
+    "measurement_labels": [
+      "function_calls"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "eca76f4b82d7c6fb92192c78e6e027268fb76ffc3156b831a588c95776af0f25",
+    "upstream": "benchmarks/suite/14_closure.ts"
+  },
+  {
+    "group": "suite",
+    "name": "15_mandelbrot",
+    "source": "benchmarks/suite/15_mandelbrot.js",
+    "category": "S",
+    "time_label": "mandelbrot",
+    "measurement_labels": [
+      "mandelbrot"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "ad649010c5f0549f0944b68fe4e062484f55737bb907dbbc836753c4b97fc1c5",
+    "upstream": "benchmarks/suite/15_mandelbrot.ts"
+  },
+  {
+    "group": "suite",
+    "name": "16_matrix_multiply",
+    "source": "benchmarks/suite/16_matrix_multiply.js",
+    "category": "S",
+    "time_label": "matrix_multiply",
+    "measurement_labels": [
+      "matrix_multiply"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "435e2d49c2feb860c23f82a38e6d2c6af4fd257dd1353a3365dc63e1dec363bd",
+    "upstream": "benchmarks/suite/16_matrix_multiply.ts"
+  },
+  {
+    "group": "suite",
+    "name": "17_loop_data_dependent",
+    "source": "benchmarks/suite/17_loop_data_dependent.js",
+    "category": "S",
+    "time_label": "loop_data_dependent",
+    "measurement_labels": [
+      "loop_data_dependent"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "bb2e0827092baa90aace284786d9adcd17ee4da3f98a58801dd491769f0d4c03",
+    "upstream": "benchmarks/suite/17_loop_data_dependent.ts"
+  },
+  {
+    "group": "suite",
+    "name": "bench_array_grow",
+    "source": "benchmarks/suite/bench_array_grow.js",
+    "category": "S",
+    "time_label": "array_grow",
+    "measurement_labels": [
+      "array_grow"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "b20264fbd9c0b59a70df97d13fc59d138b59ac25653e825e66810e0efe6c98d3",
+    "upstream": "benchmarks/suite/bench_array_grow.ts"
+  },
+  {
+    "group": "suite",
+    "name": "bench_buffer_readwrite",
+    "source": "benchmarks/suite/bench_buffer_readwrite.js",
+    "category": "S",
+    "time_label": "buffer_readwrite",
+    "measurement_labels": [
+      "buffer_readwrite"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "ae5d6f92fcb8770de7f529706a5d6578609c79f9096076bc30bbfa0daa728110",
+    "upstream": "benchmarks/suite/bench_buffer_readwrite.ts"
+  },
+  {
+    "group": "suite",
+    "name": "bench_gc_pressure",
+    "source": "benchmarks/suite/bench_gc_pressure.js",
+    "category": "S",
+    "time_label": "gc_pressure",
+    "measurement_labels": [
+      "gc_pressure"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "61919298f21021e72bfd3b38a4cd1494bebf563fb0fad9f569a96277ee2da702",
+    "upstream": "benchmarks/suite/bench_gc_pressure.ts"
+  },
+  {
+    "group": "suite",
+    "name": "bench_int_arithmetic",
+    "source": "benchmarks/suite/bench_int_arithmetic.js",
+    "category": "S",
+    "time_label": "int_arithmetic",
+    "measurement_labels": [
+      "int_arithmetic"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "27844fb3e356b441d3c73ea012f2269f6c5e971a8650a3923160356ec7c7a3b4",
+    "upstream": "benchmarks/suite/bench_int_arithmetic.ts"
+  },
+  {
+    "group": "suite",
+    "name": "bench_json_readonly",
+    "source": "benchmarks/suite/bench_json_readonly.js",
+    "category": "B",
+    "time_label": "json_readonly",
+    "measurement_labels": [
+      "json_readonly"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "52ed454fbd221ec0ceda99598160afc91748bb01996ffa633131e75807d056c5",
+    "upstream": "benchmarks/suite/bench_json_readonly.ts"
+  },
+  {
+    "group": "suite",
+    "name": "bench_json_readonly_indexed",
+    "source": "benchmarks/suite/bench_json_readonly_indexed.js",
+    "category": "B",
+    "time_label": "json_readonly_indexed",
+    "measurement_labels": [
+      "json_readonly_indexed"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "429f9edd05b157b32c9b93893b37b766b099c0b20fb861da6a9ea6c7e979ee01",
+    "upstream": "benchmarks/suite/bench_json_readonly_indexed.ts"
+  },
+  {
+    "group": "suite",
+    "name": "bench_json_roundtrip",
+    "source": "benchmarks/suite/bench_json_roundtrip.js",
+    "category": "B",
+    "time_label": "json_roundtrip",
+    "measurement_labels": [
+      "json_roundtrip"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "c1711b7da9c23651b80c077fcc4068e1ffee01a1ba00646367bbac4ee465bb24",
+    "upstream": "benchmarks/suite/bench_json_roundtrip.ts"
+  },
+  {
+    "group": "suite",
+    "name": "bench_json_typed_roundtrip",
+    "source": "benchmarks/suite/bench_json_typed_roundtrip.js",
+    "category": "B",
+    "time_label": "json_typed_roundtrip",
+    "measurement_labels": [
+      "json_typed_roundtrip"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "f0fe9cffb4589b9e3ef491da4a8ddc6fc8524160736b13d155b7cdee8d455d49",
+    "upstream": "benchmarks/suite/bench_json_typed_roundtrip.ts"
+  },
+  {
+    "group": "suite",
+    "name": "bench_numeric_array_downgrade",
+    "source": "benchmarks/suite/bench_numeric_array_downgrade.js",
+    "category": "D",
+    "time_label": "numeric_array_downgrade",
+    "measurement_labels": [
+      "numeric_array_downgrade"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "c77e928898dd8d03f66b3f94295d7e3be73dfb73b2ad79619d4c959ee1acccbd",
+    "upstream": "benchmarks/suite/bench_numeric_array_downgrade.ts"
+  },
+  {
+    "group": "suite",
+    "name": "bench_numeric_array_numeric",
+    "source": "benchmarks/suite/bench_numeric_array_numeric.js",
+    "category": "S",
+    "time_label": "numeric_array_numeric",
+    "measurement_labels": [
+      "numeric_array_numeric"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "4119fec881553a3979b2bda556beaddbafbc8de0bbbce2ea819870adb3947715",
+    "upstream": "benchmarks/suite/bench_numeric_array_numeric.ts"
+  },
+  {
+    "group": "suite",
+    "name": "bench_object_property",
+    "source": "benchmarks/suite/bench_object_property.js",
+    "category": "S",
+    "time_label": "object_property",
+    "measurement_labels": [
+      "object_property"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "1cb58287f78ea8331eea3fcbb1579ed5bb4ab6abe37ee89f0b9f26c5b9b1dc59",
+    "upstream": "benchmarks/suite/bench_object_property.ts"
+  },
+  {
+    "group": "suite",
+    "name": "bench_string_heavy",
+    "source": "benchmarks/suite/bench_string_heavy.js",
+    "category": "S",
+    "time_label": "string_heavy",
+    "measurement_labels": [
+      "string_heavy"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "76b5e65173e3ec1961bd5335e5209525b2d9425eb8758d6e3baaca866b87135b",
+    "upstream": "benchmarks/suite/bench_string_heavy.ts"
+  },
+  {
+    "group": "suite",
+    "name": "bench_typed_array_untyped_access",
+    "source": "benchmarks/suite/bench_typed_array_untyped_access.js",
+    "category": "S",
+    "time_label": "ta_untyped_access",
+    "measurement_labels": [
+      "ta_typed_access",
+      "ta_untyped_access",
+      "ta_untyped_typed_ratio"
+    ],
+    "warmup": 5,
+    "measured": 7,
+    "sha256": "155a8f81ae54ace76d16b658f5ae91fcad4de4f786dc000d4cbff83b026fb0bc",
+    "upstream": "benchmarks/suite/bench_typed_array_untyped_access.ts"
+  }
+]
